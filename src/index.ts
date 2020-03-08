@@ -1,5 +1,3 @@
-const foo = "123";
+export function main() {}
 
-export function main() {
-  return 42;
-}
+main()
