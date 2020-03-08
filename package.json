@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Code generator for slonik",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "flora-sql-parser": "^0.9.4"
+  },
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "jest": "^25.1.0",

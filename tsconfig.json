@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": [
+      "es2019"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": false,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/**/*",
+    "./types"
+  ]
+}
