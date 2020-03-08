@@ -1,0 +1,60 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "security",
+    "jest"
+  ],
+  "env": {
+    "jest": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "semi": false,
+        "tabWidth": 2
+      }
+    ],
+    "curly": [
+      "warn",
+      "multi-line"
+    ],
+    "@typescript-eslint/no-floating-promises": 2,
+    "@typescript-eslint/no-submodule-imports": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-use-before-define": 0,
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/camelcase": [
+      "error",
+      {
+        "properties": "never"
+      }
+    ],
+    "no-console": "warn",
+    "no-throw-literal": "error",
+    "jest/no-focused-tests": "warn"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
