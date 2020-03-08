@@ -5,10 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "@types/node": "^13.9.0",
-    "flora-sql-parser": "^0.9.4"
+    "flora-sql-parser": "^0.9.4",
+    "yargs": "^15.1.0"
   },
   "devDependencies": {
     "@types/jest": "^25.1.4",
+    "@types/yargs": "^15.0.4",
     "@typescript-eslint/eslint-plugin": "^2.22.0",
     "@typescript-eslint/parser": "^2.22.0",
     "eslint": "^6.8.0",
@@ -23,7 +25,8 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
