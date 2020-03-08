@@ -1,0 +1,24 @@
+{
+  "name": "slonik-codegen",
+  "version": "1.0.0",
+  "description": "Code generator for slonik",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsQu/slonik-codegen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsQu/slonik-codegen/issues"
+  },
+  "homepage": "https://github.com/OsQu/slonik-codegen#readme"
+}
